@@ -11,17 +11,18 @@ Given that online shopping experiences continue to evolve as per customer expect
 Implementation requirements:
 <ol>
 <li>Create the cluster (EC2 instances with load balancer and elastic IP in case of AWS)</li>
-    Automate the provisioning of an EC2 instance using Ansible or Chef Puppet
-    Install Docker and Kubernetes on the cluster
-    Implement the network policies at the database pod to allow ingress traffic from the front-end application pod
-    Create a new user with permissions to create, list, get, update, and delete pods
-    Configure application on the pod
-    Take snapshot of ETCD database
-    Set criteria such that if the memory of CPU goes beyond 50%, environments automatically get scaled up and configured
+<li>Automate the provisioning of an EC2 instance using Ansible or Chef Puppet.</li>
+<li>Install Docker and Kubernetes on the cluster.</li>
+<li>Implement the network policies at the database pod to allow ingress traffic from the front-end application pod.</li>
+<li>Create a new user with permissions to create, list, get, update, and delete pods.</li>
+<li>Configure application on the pod.</li>
+<li>Take snapshot of ETCD database.</li>
+<li>Set criteria such that if the memory of CPU goes beyond 50%, environments automatically get scaled up and configured.</li>
 </ol>
+<br>
 The following tools must be used:
-
-    EC2
-    Kubernetes
-    Docker
-    Ansible or Chef or Puppet
+<ol>
+    <li>EC2</li>
+    <li>Kubernetes</li>
+    <li>Docker</li>
+    <li>Ansible or Chef or Puppet</li>
