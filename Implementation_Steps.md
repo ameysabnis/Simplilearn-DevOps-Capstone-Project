@@ -14,6 +14,9 @@
   Click on <b>Launch Instance</b> at the bottom of the page.
   <img width="912" alt="aws manageent console" src="https://user-images.githubusercontent.com/84242168/199165774-19f2be07-c106-420e-9d0e-55aa3f5d9491.png">
   <br>
+  The new instance shall be up and running as below:
+  <img width="912" alt="aws manageent console" src="https://user-images.githubusercontent.com/84242168/199166229-f5a60b2a-5673-423d-8813-cee5a9b29750.png">
+
 
   
   
