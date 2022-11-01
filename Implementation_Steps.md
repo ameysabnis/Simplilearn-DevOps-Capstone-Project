@@ -17,6 +17,16 @@
   The new instance shall be up and running as below:
   <img width="912" alt="aws manageent console" src="https://user-images.githubusercontent.com/84242168/199166229-f5a60b2a-5673-423d-8813-cee5a9b29750.png">
   <li>Create a <b>new Elastic IP for the new instance</b> so that the public IP of the instance <b>doesn't change every time the instance is restarted.</b>
+  Under <b>'Network & Security' -> Elastic IPs'</b>, click on <b>'Allocate IP address'</b>.
+  <img width="912" alt="aws manageent console" src="https://user-images.githubusercontent.com/84242168/199167655-456fe33f-0200-4499-9503-ce0f2e3860e2.png">
+  Rename the IP address as <b>'SL_DO_CP_IP_Address'</b> as below:
+  <img width="912" alt="aws manageent console" src="https://user-images.githubusercontent.com/84242168/199168118-c069e6b0-a373-4d9e-bdf8-284f939ad0b8.png">
+  Click on <b>'Actions'</b> and select 'Associate IP address'</b> and <b>link the newly created instance</b> and, finally click on >b>'Associate'</b> as below.
+  <img width="912" alt="aws manageent console" src="https://user-images.githubusercontent.com/84242168/199168922-6604803a-3d22-467f-991e-114ace235830.png">
+  The <b>public IP of the instance won't change</b>, even after the instance is rebooted.
+
+  
+
 
 
   
