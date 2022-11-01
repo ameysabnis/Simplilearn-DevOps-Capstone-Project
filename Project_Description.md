@@ -8,7 +8,7 @@ the connectivity of the database has been the reason for the issue.
 While troubleshooting, it is found that the database server has several downtime instances at irregular intervals. This situation compels the company to create their own infrastructure that runs in high-availability mode.
 Given that online shopping experiences continue to evolve as per customer expectations, the developers are driven to make their app more reliable, fast, and secure for improving the performance of the current system.
 
-Implementation requirements:
+### Implementation requirements:
 <ol>
 <li>Create the cluster (EC2 instances with load balancer and elastic IP in case of AWS)</li>
 <li>Automate the provisioning of an EC2 instance using Ansible or Chef Puppet.</li>
